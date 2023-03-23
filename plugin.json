@@ -1,0 +1,12 @@
+{
+  "ID": "bdf9b14c3916410fa0c9220b04088915",
+  "ActionKeyword": "case",
+  "Name": "isnandar_nodejs_changecase",
+  "Description": "",
+  "Author": "isnandar",
+  "Version": "0.0.1",
+  "Language": "javascript",
+  "Website": "https://github.com/isnandar1471/isnandar_nodejs_changecase",
+  "ExecuteFileName": "main.js",
+  "IcoPath": "nodejs-logo.png"
+}
