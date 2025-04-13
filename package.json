@@ -1,6 +1,9 @@
 {
   "name": "flow.launcher.plugin.change-case",
   "description": "Change the case of a string",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@types/node": "^22.14.1",
     "change-case-all": "^1.0.15",
