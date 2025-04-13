@@ -30,7 +30,7 @@ jobs:
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-          files: "flow.launcher.plugin.change-case-${{steps.version.outputs.prop}}.zip"
+          files: "flow.launcher.plugin.change-case_${{steps.version.outputs.prop}}.zip"
           tag_name: "${{steps.version.outputs.prop}}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
