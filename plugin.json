@@ -1,12 +1,14 @@
 {
   "ID": "bdf9b14c3916410fa0c9220b04088915",
-  "ActionKeyword": "case",
-  "Name": "isnandar_nodejs_changecase",
-  "Description": "",
-  "Author": "isnandar",
+  "Name": "flow.launcher.plugin.change-case",
+  "Description": "Change the case of a string",
+  "Author": "https://github.com/isnandar1471",
   "Version": "0.0.1",
   "Language": "javascript",
-  "Website": "https://github.com/isnandar1471/isnandar_nodejs_changecase",
-  "ExecuteFileName": "main.js",
-  "IcoPath": "nodejs-logo.png"
+  "Website": "https://github.com/isnandar1471/flow.launcher.plugin.change-case",
+  "UrlDownload": "",
+  "UrlSourceCode": "https://github.com/isnandar1471/flow.launcher.plugin.change-case",
+  "IcoPath": "https://cdn.jsdelivr.net/gh/isnandar1471/flow.launcher.plugin.change-case@0.0.1/icon.png",
+  "ActionKeyword": "case",
+  "ExecuteFileName": "build/index.js"
 }

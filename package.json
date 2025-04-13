@@ -1,7 +1,13 @@
 {
-  "name": "isnandar_nodejs_changecase",
+  "name": "flow.launcher.plugin.change-case",
+  "description": "Change the case of a string",
   "dependencies": {
+    "@types/node": "^22.14.1",
     "change-case-all": "^1.0.15",
-    "copy-paste": "^1.3.0"
+    "flow-launcher-helper": "^2.2.0",
+    "os-locale": "4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }
