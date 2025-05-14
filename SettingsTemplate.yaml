@@ -1,0 +1,125 @@
+#$schema: https://www.flowlauncher.com/schemas/settings-template.schema.json
+body:
+  - type: checkbox
+    attributes:
+      name: camelCase
+      label: Camel Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: capitalCase
+      label: Capital Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: constantCase
+      label: Constant Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: dotCase
+      label: Dot Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: headerCase
+      label: Header Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: noCase
+      label: No Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: paramCase
+      label: Param Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: pascalCase
+      label: Pascal Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: pathCase
+      label: Path Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: sentenceCase
+      label: Sentence Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: snakeCase
+      label: Snake Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: lowerCase
+      label: Lower Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: localeLowerCase
+      label: Locale Lower Case (${lang})
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: lowerCaseFirst
+      label: Lower Case First
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: spongeCase
+      label: Sponge Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: swapCase
+      label: Swap Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: titleCase
+      label: Title Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: upperCase
+      label: Upper Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: localeUpperCase
+      label: Locale Upper Case (${lang})
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: upperCaseFirst
+      label: Upper Case First
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: isUpperCase
+      label: Is Upper Case
+      defaultValue: true
+  - type: checkbox
+    attributes:
+      name: isLowerCase
+      label: Is Lower Case
+      defaultValue: true
+  - type: input
+    attributes:
+      name: localeLang
+      label: Locale Lang
+      defaultValue: en
+      description: |
+        Examples: en, tr, or etc.
+        Default: en.
+  - type: checkbox
+    attributes:
+      name: dontHideAfterAction
+      label: Don't Hide After Action
+      defaultValue: false

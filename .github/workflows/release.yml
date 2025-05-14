@@ -26,11 +26,11 @@ jobs:
         run: |
           npm install
           npm run build
-          zip -r flow.launcher.plugin.change-case_${{steps.version.outputs.prop}}.zip . -x '*.git*'
+          zip -r flow.launcher.plugin.change-case.zip . -x '*.git*'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-          files: "flow.launcher.plugin.change-case_${{steps.version.outputs.prop}}.zip"
-          tag_name: "${{steps.version.outputs.prop}}"
+          files: "flow.launcher.plugin.change-case.zip"
+          tag_name: "v${{steps.version.outputs.prop}}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
