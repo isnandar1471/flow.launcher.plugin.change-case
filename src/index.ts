@@ -148,11 +148,17 @@ flow.on("query", (params) => {
   }
 
   if (parseAsBoolean(flow.settings.sentenceCase)) {
+    let sentenceCaseResult = '';
+    if (paramValue) {
+      sentenceCaseResult = paramValue.toLowerCase();
+      sentenceCaseResult = sentenceCaseResult[0].toUpperCase() + sentenceCaseResult.slice(1);
+    }
+
     results.push({
-      title: Case.sentenceCase(paramValue),
+      title: sentenceCaseResult,
       subtitle: "Sentence Case",
       method: DO_COPY,
-      params: [Case.sentenceCase(paramValue)],
+      params: [sentenceCaseResult],
       dontHideAfterAction: dontHideAfterAction,
       score: 20,
     });
