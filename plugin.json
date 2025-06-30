@@ -7,7 +7,7 @@
   "Name": "Change Case",
   "Description": "Change the case of a string",
   "Author": "isnandar1471",
-  "Version": "0.0.4",
+  "Version": "0.0.5",
   "Language": "typescript",
   "Website": "https://github.com/isnandar1471/flow.launcher.plugin.change-case",
   "IcoPath": "assets/icon.png",
